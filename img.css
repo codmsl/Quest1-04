@@ -1,0 +1,21 @@
+* {
+    margin: 0px; padding: 0px; color: beige;
+}
+body {
+    display: flex;
+}
+#base {
+    width: 650px; height: auto; margin: 50px auto;
+    display: flex; flex-wrap: wrap; justify-content: center;
+}
+#base>img {
+    width: 70px; height: 70px; border-radius: 20px; border: solid 8px white;
+    transform: skewX(-10deg); display: flex;
+    z-index: 1;
+    background-color: grey;
+}
+#base>img:hover{
+    background-color: pink; border: solid 2px white;
+    transform: skewX(-10deg) scale(1.5, 1.5);
+    z-index: 2;
+}
